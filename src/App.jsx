@@ -30,6 +30,10 @@ function App() {
     const newTask = { taskName, taskDes, checked }
     setTasks([...tasks, newTask])
     console.log(newTask)
+    setName('')
+    setDes('')
+    setChecked(false)
+    setIsFormSubmited(false)
   }
   return (
     <>
